@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --colorwhite: hsl(0, 0%, 100%);
+    --lightgray: hsl(212, 45%, 89%);
+    --grayishblue: hsl(220, 15%, 55%);
+    --darkblue: hsl(218, 44%, 22%);
+}
+* {
+    box-sizing: border-box;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--darkblue);
+    background-color: var(--lightgray);
+	line-height: 1.4;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    width: 320px;
+    padding: 16px;
+    border-radius: 20px;
+    background-color: var(--colorwhite);
+    text-align: center;
+    box-shadow: 0 5px 25px -10px var(--grayishblue);
+}
+.card img {
+    width: 100%;
+    border-radius: 20px;
+}
+.card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+.card p {
+    color: var(--grayishblue);
+    padding: 0 20px 25px 20px;
+}
+.attribution {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.attribution, .attribution a {
+    color: var(--darkblue);
+}
